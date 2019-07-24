@@ -167,6 +167,10 @@ const theme = {
   prism: {
     style: prismTheme,
   },
+  colors: {
+    code: "#fff",
+    pre: "#fff",
+  },
 };
 
 export default [theme, highlight];
