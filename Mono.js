@@ -6,8 +6,12 @@ const Mono = styled.div`
   ${props => (props.big ? "" : `font-size: 0.7em;`)};
 `;
 
+const Code = styled.code`
+  color: white;
+`;
+
 export default ({ big = false, children }) => (
   <Mono big={big}>
-    <code>{children}</code>
+    <Code>{children}</Code>
   </Mono>
 );
