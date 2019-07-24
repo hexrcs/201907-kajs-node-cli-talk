@@ -168,6 +168,7 @@ const theme = {
     style: prismTheme,
   },
   colors: {
+    ...dark.colors,
     code: "#fff",
     pre: "#fff",
   },
